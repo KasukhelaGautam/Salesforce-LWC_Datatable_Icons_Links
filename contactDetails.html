@@ -1,0 +1,16 @@
+<template>
+    
+    <lightning-card title="List Of Contacts">
+        <lightning-layout vertical-align="center">
+
+            <lightning-datatable
+                key-field="id"
+                data={data}
+                columns={columns}
+                onrowaction={handleRowAction}>
+        </lightning-datatable>
+
+        </lightning-layout>
+    </lightning-card>
+
+</template>
